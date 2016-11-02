@@ -1,0 +1,96 @@
+
+#myOrder .order-tab {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #5e5e5e;
+  font-size: 16px;
+}
+#myOrder .active-tab {
+  border-bottom: 2px solid #fb4748;
+  color: #fb4748;
+}
+#myOrder .tab-box {
+  padding: 0 14px;
+  background-color: white;
+}
+#myOrder .order-detail {
+  font-size: 13px;
+  margin-top: 5px;
+  border-top: 1px solid #e7e7e7;
+  margin-bottom: 10px;
+}
+#myOrder .shop-status {
+  height: 30px;
+  line-height: 30px;
+  background-color: white;
+  padding: 0 10px;
+}
+#myOrder .shop-icon {
+  width: 15px;
+  height: 15px;
+  vertical-align: sub;
+}
+#myOrder .arrow {
+  width: 11px;
+  height: 14px;
+  vertical-align: middle;
+}
+#myOrder .key-sign {
+  color: #fb4748;
+}
+#myOrder .order-product {
+  height: 85px;
+}
+#myOrder .product-ban {
+  padding: 5px 20px;
+}
+#myOrder .product-box {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  text-align: center;
+  float: left;
+  margin-right: 10px;
+}
+#myOrder .product-box p {
+  /*margin-top:0.3rem;*/
+}
+#myOrder .product-img {
+  height: 60px;
+  width: auto;
+}
+#myOrder .price-period {
+  background-color: white;
+  line-height: 30px;
+}
+#myOrder .padding-left-10 {
+  padding-left: 10px;
+}
+#myOrder .padding-right-10 {
+  padding-right: 10px;
+}
+#myOrder .price-period .pure-g {
+  padding: 0 10px;
+}
+#myOrder .grey-word {
+  color: #aaaaaa;
+}
+#myOrder .opt-btn {
+  width: 70px;
+  height: 22px;
+  line-height: 0;
+  border: 1px solid #fb4748;
+  color: #fb4748;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+#myOrder .info-row {
+  max-width: 100%;
+  height: 30px;
+  background-color: white;
+  padding-right: 10px;
+  text-align: right;
+}

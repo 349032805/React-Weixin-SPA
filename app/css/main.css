@@ -1,0 +1,127 @@
+body{
+   background-color:#f4f6fa;
+   color:#5e5e5e;
+}
+ul, p {
+  margin: 0;
+  padding: 0;
+}
+
+ul,li{
+  list-style: none outside none;
+  padding:0;
+}
+
+p,label {font-size: 0.75rem; color: #5e5e5e;}  // 12px;
+
+input{-webkit-tap-highlight-color:rgba(255,0,0,0);outline:0;}
+
+a { 
+  text-decoration: none;
+  color:#5e5e5e;
+}
+
+input,select,textarea{
+  box-shadow: none!important;
+}
+
+button{
+  outline:none;
+}
+
+.float-left{
+  float:left;
+}
+
+.float-right{
+  float:right;
+}
+
+.text-left{
+  text-align:left;
+}
+
+.text-center{
+  text-align:center;
+}
+
+.text-right{
+  text-align:right;
+}
+
+.split-line{
+    width:100%;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.font-12{
+  font-size: 12px!important;
+}
+
+.font-13{
+  font-size: 13px!important;
+}
+
+.font-14{
+  font-size: 14px!important;
+}
+
+.color-999{
+  color:#999;
+}
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden; 
+}
+
+.bg-layer{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+  background: rgba(0, 0, 0, 0.3);
+  display: none;
+}
+
+.nomore{
+   height: 40px;
+  line-height: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.nomore span {
+  width: 60px;
+  height: 1px;
+  background: #999;
+}
+.nomore .install-line1 {
+  position: absolute;
+  top: 20px;
+  right: calc(50% + 50px);
+}
+.nomore .install-line2 {
+  position: absolute;
+  top: 20px;
+  left: calc(50% + 50px);
+}
+
+.nomore-tip{
+  font-size: 14px;
+  color: #999;
+}
+
+.show {
+  display: block!important;
+}
+.hide {
+  display: none!important;
+}

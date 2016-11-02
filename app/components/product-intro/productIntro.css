@@ -1,0 +1,95 @@
+#productIntro{
+	padding-top:40px;
+	padding-bottom: 60px;
+}
+
+#productIntro .tab-box .order-tab {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #5e5e5e;
+  display: block;
+}
+#productIntro .tab-box .active-tab {
+  border-bottom: 2px solid #fb4748;
+  color: #fb4748;
+}
+#productIntro .tab-box {
+  padding: 0 14px;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+#productIntro .split-line {
+  position: fixed;
+  top: 40px;
+  z-index: 1000;
+}
+#productIntro .supplier-intro {
+  background-color: white;
+}
+#productIntro .head-name {
+  background-color: white;
+  height: 90px;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  margin-top: 10px;
+}
+#productIntro .head-name img {
+  width: 70px;
+  height: 70px;
+  display: block;
+  float: left;
+  margin: 10px;
+}
+#productIntro .name-sold {
+  float: left;
+  padding-top: 20px;
+}
+#productIntro .shop-icon {
+  display: inline-block;
+  background: url("/images/supplier_intro.png") no-repeat -5px -4px;
+  width: 15px;
+  height: 15px;
+  background-size: 100px 24px;
+  vertical-align: middle;
+}
+#productIntro .has-sold {
+  color: #999;
+  margin-top: 20px;
+}
+#productIntro .shop-index {
+  padding: 0 10px;
+  line-height: 40px;
+  font-size: 12px;
+  color: #999;
+  border-bottom: 1px solid #f1f1f1;
+  clear: both;
+}
+#productIntro .location-icon {
+  display: inline-block;
+  background: url("/images/supplier_intro.png") no-repeat -31px -4px;
+  width: 15px;
+  height: 15px;
+  background-size: 100px 22px;
+  vertical-align: text-bottom;
+}
+#productIntro .telephone-icon {
+  display: inline-block;
+  background: url("/images/supplier_intro.png") no-repeat -55px -4px;
+  width: 15px;
+  height: 15px;
+  background-size: 100px 22px;
+  vertical-align: text-bottom;
+}
+#productIntro .clock-icon {
+  display: inline-block;
+  background: url("/images/supplier_intro.png") no-repeat -80px -4px;
+  width: 15px;
+  height: 15px;
+  background-size: 100px 23px;
+  vertical-align: middle;
+}
+

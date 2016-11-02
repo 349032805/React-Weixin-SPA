@@ -1,0 +1,166 @@
+#orderConfirm{
+  padding-bottom: 60px;
+}
+
+#orderConfirm .credit-amount {
+  height: 110px;
+  background-color: white;
+  padding: 10px;
+  border-bottom: 1px solid #f1f1f1;
+}
+#orderConfirm .leave-amount {
+  font-size: 13px;
+  color: #999;
+}
+#orderConfirm .credit-detail {
+  width: 180px;
+  height: 70px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+#orderConfirm .credit-num {
+  font-size: 32px;
+  color: #fe295a;
+  padding-top: 14px;
+}
+#orderConfirm .credit-tip {
+  font-size: 13px;
+  color: #999;
+  margin-top: 10px;
+}
+#orderConfirm .remind-icon {
+  width: 15px;
+  height: 15px;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#orderConfirm .pay-period {
+  background-color: white;
+  margin-top: 10px;
+  border-bottom: 1px solid #f1f1f1;
+  border-top: 1px solid #f1f1f1;
+}
+#orderConfirm .shop-icon {
+  width: 15px;
+  height: 15px;
+  vertical-align: text-top;
+}
+#orderConfirm .shop-name {
+  padding: 0 10px;
+  line-height: 40px;
+  border-bottom: 1px solid #f1f1f1;
+}
+#orderConfirm .pay-index {
+  background-color: white;
+  height: 183px;
+}
+#orderConfirm .pic-box {
+  width: 30%;
+  float: left;
+  background-color: white;
+  text-align: center;
+}
+#orderConfirm .index-item {
+  float: left;
+  background-color: white;
+  width: 70%;
+  font-size: 13px;
+}
+#orderConfirm .index-item .pure-g {
+  line-height: 30px;
+  padding: 0 10px;
+}
+#orderConfirm .arrow-icon {
+  width: 7px;
+  height: 12px;
+  vertical-align: middle;
+}
+#orderConfirm .buy-product {
+  width: auto;
+  height: 134px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+#orderConfirm .product-price {
+  color: #999;
+  line-height: 30px;
+}
+#orderConfirm .value {
+  color: #999;
+  font-size: 13px;
+}
+#orderConfirm .border-bottom-line {
+  border-bottom: 1px solid #f1f1f1;
+}
+#orderConfirm .delivery-mode {
+  background-color: white;
+  margin-top: 10px;
+  border-top: 1px solid #f1f1f1;
+  /*border-bottom:1px solid #f1f1f1;*/
+}
+#orderConfirm .delivery-mode .pure-g {
+  line-height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#orderConfirm .name-address {
+  height: 80px;
+  padding: 15px 10px 0 20px;
+  position: relative;
+}
+#orderConfirm .default-name {
+  width: 30px;
+  height: 15px;
+  text-align: center;
+  line-height: 15px;
+  color: white;
+  font-size: 12px;
+  display: inline-block;
+  background-color: #fe295a;
+  vertical-align: text-top;
+  margin-left: 10px;
+}
+#orderConfirm .location-icon {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+#orderConfirm .address {
+  font-size: 13px;
+  color: #999;
+  margin-top: 10px;
+}
+#orderConfirm .arrow-icon2 {
+  width: 7px;
+  height: 12px;
+  position: absolute;
+  top: 36px;
+  right: 10px;
+}
+#orderConfirm .split-color-line {
+  /*width:100%;*/
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+}
+#orderConfirm .color-line {
+  width: 100%;
+  height: auto;
+}
+#orderConfirm .total-count {
+  border-top: 1px solid #f1f1f1;
+  background-color: white;
+  margin-top: 10px;
+}
+#orderConfirm .total-count .pure-g {
+  line-height: 40px;
+  padding: 0 10px;
+  border-bottom: 1px solid #f1f1f1;
+}
+.font-13{
+  font-size: 13px!important;
+}

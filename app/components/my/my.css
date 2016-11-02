@@ -1,0 +1,246 @@
+
+#my{
+  padding-bottom: 50px;
+}
+#my .theme-ban {
+  max-width: 100%;
+  height: 150px;
+  background: linear-gradient(to right bottom, #f86242, #eb3e4c);
+  padding: 0 10px;
+}
+#my .account-box {
+  width: 100%;
+  height: 60px;
+  padding-top: 44px;
+  position: relative;
+}
+#my .user-logo {
+  width: 60px;
+  height: 60px;
+  display: block;
+  float: left;
+  margin-right: 16px;
+}
+#my .name-phone {
+  padding-top: 10px;
+  float: left;
+}
+#my .name-phone p {
+  color: white;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+#my .theme {
+  height: 40px;
+  line-height: 40px;
+  background-color: white;
+  /*padding:0 10px;*/
+  padding-right: 14px;
+  border-bottom: 1px solid #f1f1f1;
+  position: relative;
+}
+#my .theme-title {
+  padding: 0 10px;
+  height: 16px;
+  line-height: 16px;
+  border-left: 3px solid #fb4748;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  margin-top: -8px;
+}
+#my .theme-more {
+  float: right;
+  font-size: 13px;
+  color: #5e5e5e;
+}
+#my .arrow {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #5e5e5e;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  border-top: none;
+  border-right: none;
+  top: 15px;
+  right: 10px;
+}
+#my #accountRelative {
+  background-color: white;
+  border-top: 1px solid #f1f1f1;
+}
+#my .relative-ban {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #f1f1f1;
+  padding: 0 10px;
+  color: #5e5e5e;
+  position: relative;
+}
+#my .ban-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+#my .credit-icon {
+  background: url("/images/account.png") no-repeat -5px -54px;
+  background-size: 150px 120px;
+}
+#my .chart-icon {
+  background: url("/images/account.png") no-repeat -45px -54px;
+  background-size: 150px 120px;
+}
+#my .safe-icon {
+  background: url("/images/account.png") no-repeat -102px -54px;
+  background-size: 180px 120px;
+}
+#my .bulb-icon {
+  background: url("/images/account.png") no-repeat -149px -54px;
+  background-size: 180px 120px;
+}
+#my .bell-qrcode {
+  padding-top: 20px;
+  padding-right: 20px;
+}
+#my .link-icon {
+  display: block;
+  float: right;
+  width: 21px;
+  height: 21px;
+  margin-right: 16px;
+}
+#my .link-icon img {
+  width: 21px;
+  height: 21px;
+}
+#my .arrow-white {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 1px solid white;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  border-top: none;
+  border-right: none;
+  top: 69px;
+  right: 10px;
+}
+#my .my-orders {
+  background-color: white;
+  margin-bottom: 10px;
+}
+#my .order-tab {
+  border-bottom: 1px solid #f1f1f1;
+  background-color: white;
+}
+#my .order-tab a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  outline: none;
+  border: none;
+  position: relative;
+}
+#my .order-tab a::before {
+  content: '';
+  display: inline-block;
+  background: url("/images/account.png") no-repeat 0px 0px;
+  width: 27px;
+  height: 27px;
+  margin: .5rem 0 .1rem 0;
+}
+#my .order-tab p {
+  margin-bottom: .5rem;
+  color: #5e5e5e;
+  font-size: 13px;
+}
+#my .order-tab a.wait-check-icon::before {
+  background-position: -6px -7px;
+  background-size: 198px 126px;
+}
+#my .order-tab a.wait-pay-icon::before {
+  background-position: -56px -7px;
+  background-size: 210px 126px;
+}
+#my .order-tab a.wait-delivery-icon::before {
+  background-position: -105px -7px;
+  background-size: 208px 126px;
+}
+#my .order-tab a.wait-besure-icon::before {
+  background-position: -140px -7px;
+  background-size: 190px 126px;
+}
+
+#my .hasauth{
+    width:11px;
+    height:11px;
+  }
+
+#my .hasauth{
+  width:11px;
+  height:11px;
+}
+
+#my .tip-circle{
+    width:14px;
+    height:14px;
+    line-height: 14px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #ff1334;
+    color:white;
+    font-size: 12px;
+    position: absolute;
+    left:55%;
+    top:5px;
+    z-index: 200;
+  }
+
+#my .tip-rect{
+  width:20px;
+  height:14px;
+  line-height: 14px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #ff1334;
+  color:white;
+  font-size: 12px;
+  position: absolute;
+  left:55%;
+  top:5px;
+  z-index: 200;
+}
+
+
+#my .check-label{
+      border-bottom: 1px solid #f1f1f1;
+      background-color: white;
+      height:60px;
+      line-height: 60px;
+      font-size: 13px;
+  }
+
+ #my .check-icon{
+    width:25px;
+    height:25px;
+    vertical-align: middle;
+  }
+
+ #my .vertical-line{
+    position: absolute;
+    right:0;
+    top:0;
+    height:60px;
+    border-right:1px solid #f1f1f1;
+  }

@@ -1,0 +1,199 @@
+#productDetail {
+  padding-bottom: 60px;
+}
+#productDetail #productDetail {
+  padding-bottom: 60px;
+}
+#productDetail .product-logo {
+  width: 100%;
+  height: 175px;
+  display: block;
+}
+#productDetail .product-intro {
+  background-color: white;
+}
+#productDetail .price-sale {
+  padding: 5px 10px 0 10px;
+  line-height: 20px;
+  background-color: white;
+  font-size: 13px;
+  color: #999;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+}
+#productDetail .sale-title {
+  font-size: 16px;
+  color: #333;
+  line-height: 20px;
+}
+#productDetail .key-price {
+  font-size: 14px;
+  color: #fe295a;
+}
+#productDetail .shop-phone {
+  padding: 0 10px;
+  color: #999;
+  font-size: 13px;
+  line-height: 40px;
+  border-bottom: 1px solid #f1f1f1;
+}
+#productDetail .product-intro .shop-icon {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+#productDetail .shop-phone a {
+  color: #999;
+}
+#productDetail .product-format {
+  background-color: white;
+  margin-top: 10px;
+  border-top: 1px solid #f1f1f1;
+}
+#productDetail .small-title {
+  font-size: 13px;
+  padding-left: 5px;
+  line-height: 30px;
+}
+#productDetail .select-btn {
+  /*width:70px;*/
+  padding: 0 22px;
+  height: 25px;
+  background-color: transparent;
+  border: 1px solid #999;
+  color: #999;
+  border-radius: 4px;
+  font-size: 12px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+#productDetail .active-btn {
+  padding: 0 22px;
+  height: 25px;
+  background-color: transparent;
+  border-radius: 4px;
+  font-size: 12px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #e63955;
+  color: #e63955;
+}
+#productDetail .format-index {
+  padding: 0 10px;
+  border-bottom: 1px solid #f1f1f1;
+}
+#productDetail .select-amount {
+  line-height: 40px;
+  padding-left: 15px;
+  padding-right: 10px;
+  font-size: 13px;
+  border-bottom: 1px solid #f1f1f1;
+}
+#productDetail .add-minus-num {
+  padding-top: 7px;
+  float: right;
+}
+#productDetail .minus-btn {
+  width: 27px;
+  height: 27px;
+  background-color: transparent;
+  border: 1px solid #333;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  float: left;
+}
+#productDetail .add-btn {
+  width: 27px;
+  height: 27px;
+  background-color: transparent;
+  border: 1px solid #333;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  float: left;
+}
+#productDetail .add-minus-sign {
+  width: 15px;
+  height: 15px;
+  display: block;
+  margin: 0 auto;
+}
+#productDetail .num-box {
+  width: 35px;
+  height: 27px;
+  text-align: center;
+  line-height: 27px;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  float: left;
+}
+#productDetail .tip-left {
+  /*float:left;*/
+  background-color: white;
+  padding-left: 15px;
+}
+#productDetail .tip-left p {
+  margin: 0.5rem 0;
+}
+#productDetail .tip-right {
+  position: absolute;
+  top: 14px;
+  right: 10px;
+  font-size: 14px;
+  color: #999;
+}
+#productDetail .service-tip {
+  background-color: white;
+  padding: 1px 0;
+  position: relative;
+  border-bottom: 1px solid #f1f1f1;
+}
+#productDetail .expenses-circle {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #6c6c6c;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+#productDetail .intro-detail {
+  line-height: 40px;
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  background-color: white;
+  font-size: 13px;
+  padding-left: 15px;
+  position: relative;
+  margin-top: 10px;
+}
+#productDetail .arrow {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 1px solid #5e5e5e;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  -ms-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  border-top: none;
+  border-right: none;
+  top: 15px;
+  right: 10px;
+}
+
+#productDetail .disabled {
+  color:#d0d0d0;
+  border-color: #d0d0d0;
+}
+
+
+

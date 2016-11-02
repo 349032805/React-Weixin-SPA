@@ -1,0 +1,30 @@
+#twoBtns {
+  position: fixed;
+  max-width: 750px;
+  width: 100%;
+  height: 40px;
+  bottom: 25px;
+  text-align: center;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+#twoBtns .btn {
+  border: none;
+  height: 40px;
+  width: calc(50% - 2px);
+  border-radius: 4px;
+  font-size: 13px;
+  float:left;
+}
+
+#twoBtns .sub-btn {
+  color: #fff;
+  background: #fe295a;
+  margin-left: 2px;
+}
+#twoBtns .del-btn {
+  color: #999;
+  background: #e8e8e8;
+  margin-right: 2px;
+}
