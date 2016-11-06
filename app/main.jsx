@@ -29,7 +29,7 @@ render((
         <Route path="/" component={Nav}>
             <IndexRoute component={Home}/>
             <Route path="/productIntro" component={ProductIntro}/>
-            <Route path="/order" component={MyOrder}/>
+            <Route path="/myOrder" component={MyOrder}/>
             <Route path="/my" component={My}/>
         </Route>
 

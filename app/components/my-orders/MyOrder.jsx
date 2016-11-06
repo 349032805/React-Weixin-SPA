@@ -6,20 +6,17 @@ export default React.createClass({
     return <div id="myOrder">
 <div className="tab-box">
 	 <div className="pure-g">
-	    <div className="pure-u-1-5">
+	    <div className="pure-u-1-4">
 			<div className="order-tab">全部</div>
 	    </div>
-	     <div className="pure-u-1-5">
+	     <div className="pure-u-1-4">
     		<div className="order-tab  active-tab">待审核</div>
 	    </div>
-	     <div className="pure-u-1-5">
+	     <div className="pure-u-1-4">
 	    	<div className="order-tab">待付款</div>
 	    </div>
-	      <div className="pure-u-1-5">
+	      <div className="pure-u-1-4">
 	    	<div className="order-tab">待发货</div>
-	    </div>
-	  	<div className="pure-u-1-5">
-	    	<div className="order-tab">交易成功</div>
 	    </div>
 	</div>
 </div>
@@ -110,8 +107,6 @@ export default React.createClass({
 
 	</div>
 </div>
-
-<div className="bg-layer"></div>
 
     </div>
   }
