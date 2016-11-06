@@ -68,7 +68,7 @@ export default React.createClass({
 
 		<div className="agreement">
 			<img src="/images/tick_checkbox.png" className="tick-checkbox"/> 
-			&nbsp;我已经阅读并接受<a href="/grantBook" style={{color:'#fe295a'}}>《委托扣款授权书》</a>和<a href="/periodPayBook" style={{color:'#fe295a'}}>《分期消费协议》</a>
+			&nbsp;我已经阅读并接受<a href="#" style={{color:'#fe295a'}}>《委托扣款授权书》</a>和<a href="#" style={{color:'#fe295a'}}>《分期消费协议》</a>
 		</div>
 		<FooterBtn text="下一步"/>
 

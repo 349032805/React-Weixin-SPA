@@ -36,30 +36,8 @@ export default React.createClass({
 		<a href="/signContract1" target="_blank">签约</a>
 	</p>
 
-
-	<p style={{marginTop:'60px'}}>
+	<p>
 		<a href="/my" target="_blank">我的</a>
-	</p>
-
-
-	<p style={{marginTop:'60px'}}>
-		<span>4 个人账户管理</span>
-	</p>
-
-	<p>
-		<a href="/login" target="_blank">登录</a>
-	</p>
-
-	<p>
-		<a href="/register" target="_blank">4.2.1 注册_1</a>
-	</p>
-
-	<p>
-		<a href="/setPassword" target="_blank">4.2.2 注册_2</a>
-	</p>
-
-	<p>
-		<a href="/grantBook" target="_blank">4.3.3 注册_3</a>
 	</p>
 
 	<p style={{marginTop:'30px'}}>
@@ -68,10 +46,6 @@ export default React.createClass({
 
 	<p>
 		<a href="/noAuthModal" target="_blank">实名认证</a>
-	</p>
-
-	<p>
-		<a href="/payFailModal" target="_blank">支付失败</a>
 	</p>
 
 	<p>

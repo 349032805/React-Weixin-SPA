@@ -13,6 +13,7 @@ export default React.createClass({
 				<button>继续购物</button>
 			</div>
 	    </div>
+	    <div className="bg-layer"></div>
 
     </div>
   }

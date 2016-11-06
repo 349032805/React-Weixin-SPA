@@ -11,7 +11,7 @@ export default class TipBubble extends React.Component {
 
   render() {
     return <div id="tipBubble">
-			<button className={this.props.className} type="button" style={this.props.style}>{this.props.text}</button>
+			<button className="tip-bubble" type="button" style={this.props.style}>Hello World!</button>
     </div>
   }
 }
