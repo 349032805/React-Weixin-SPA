@@ -14,14 +14,14 @@
   margin: 0 auto;
   padding: 0;
 }
-#nav .footer-container a {
+#nav .footer-container i {
   text-decoration: none;
   text-align: center;
   display: block;
   outline: none;
   border: none;
 }
-#nav .footer-container a:before {
+#nav .footer-container i:before {
   content: '';
   display: inline-block;
   background: url("/images/footer_menu.png") no-repeat 0px 0px;
@@ -33,35 +33,35 @@
   margin-bottom: .3rem;
   color: #5e5e5e;
 }
-#nav .footer-container a.home-menu::before {
+#nav .footer-container i.home-menu::before {
   background-position: 0 1px;
   background-size: 48px 118px;
 }
-#nav .footer-container .on a.home-menu::before {
+#nav .footer-container .on i.home-menu::before {
   background-position: -25px 1px;
   background-size: 48px 118px;
 }
-#nav .footer-container a.customer-order-menu::before {
+#nav .footer-container i.customer-order-menu::before {
   background-position: 2px -92px;
   background-size: 48px 118px;
 }
-#nav .footer-container .on a.customer-order-menu::before {
+#nav .footer-container .on i.customer-order-menu::before {
   background-position: -21px -92px;
   background-size: 48px 118px;
 }
-#nav .footer-container a.order-menu::before {
+#nav .footer-container i.order-menu::before {
   background-position: 2px -68px;
   background-size: 48px 118px;
 }
-#nav .footer-container .on a.order-menu::before {
+#nav .footer-container .on i.order-menu::before {
   background-position: -21px -68px;
   background-size: 48px 118px;
 }
-#nav .footer-container a.my-menu::before {
+#nav .footer-container i.my-menu::before {
   background-position: 1px -23px;
   background-size: 48px 118px;
 }
-#nav .footer-container .on a.my-menu::before {
+#nav .footer-container .on i.my-menu::before {
   background-position: -21px -23px;
   background-size: 48px 118px;
 }
